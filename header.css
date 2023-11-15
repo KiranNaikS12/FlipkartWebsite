@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    margin: 0px;
+    padding-left:4px;
+    font-family: Roboto,arial;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    /* flex-direction: row; */
+    height: 75px;
+    /* border-color: rgb(248, 246, 246);
+    border-style: solid;
+    border-width: 8px; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    position: fixed;
+    z-index: 1;
+    top: -5px;
+    left:0;
+    right: 0;
+    background-color: white;
+    
+}
+
+.left-section
+{
+    /* background-color: lightblue; */
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+}
+
+@media (max-width:740px)
+{
+   .nav
+   {
+      flex: 1 1 ;
+   }
+}
+
+/* .flipkart-logo
+{
+    width: 150px; 
+    margin-bottom: 0px;
+    margin-top: 2px;
+} */
+
+.logo-name
+{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 53px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 550; 
+    color: rgb(143, 142, 142);   
+}
+
+.logo-name span{
+    color:  #ffc200;
+}
+
+.sub-flipkart-logo
+{
+    /* width: 10px; */
+}
+
+.middle-section
+{
+    /* background-color: lightgreen; */
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    /* max-width: 300px; */
+    
+}
+
+.search-bar
+{
+    
+   flex: 1;
+   height: 31px;
+   padding-left: 30px;
+   font-size: 15px;
+   font-family: Roboto, arial;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(177, 177, 177);
+   border-radius: 20px;
+   /* To add a box shadow inside the search bar  */
+   box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.16);
+   
+}
+
+.search-bar-content
+{
+    /* background-color: lightgreen; */
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    position: relative;
+}
+
+/* to adjust placeholder text we need a pseudo class */
+.search-bar::placeholder
+{
+    font-family: Roboto, arial;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.search-icon
+{
+    position: absolute;
+    color: rgb(129, 123, 123);
+    font-size: 6px;
+    margin-left: 6px;
+    margin-top: 3px;
+    font-family: Roboto, arial;
+    width: 40px;
+    
+}
+
+
+.right-section
+{
+    /* background-color: lightcoral; */
+    height: 50px;
+    /* width: 480px; */
+    /* flex: 1; */
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+
+.right-section-content
+{
+    
+    /* margin-bottom: 5px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: Roboto, arial;
+    cursor: pointer;
+    
+}
+
+
+.right-section-content span
+{
+   padding-left: 3px;
+   color: rgb(80, 79, 79);
+}
+
+
+.tip-info
+{
+    position: relative;
+    
+}
+.tip-info .tip
+{
+    position: absolute;
+    right: 14px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    width: 130px;
+    top: 32px;
+    opacity: 0;
+    pointer-events: none; 
+    
+}
+
+.tip p
+{
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.tip-info:hover .tip
+{
+   opacity:1;
+}

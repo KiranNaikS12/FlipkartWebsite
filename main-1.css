@@ -1,0 +1,97 @@
+.sbi-image
+{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-style: solid;
+    border-width: 6px; 
+    border-color: rgb(237, 233, 233);
+    height: 100px;
+    cursor: pointer;
+}
+
+.sbi-logo
+{
+    /* background-color: lightblue; */
+    height: 120px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3px;
+   
+}
+
+.sbi-logo img
+{
+    width: 200px;
+    
+}
+
+
+.sbi-content
+{
+    /* background-color: lightcoral; */
+    height: 120px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.sbi-content img
+{
+    width: 450px;
+}
+
+
+/* mobile header  */
+
+.best-mobile
+{
+    
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: stretch;
+}
+
+.best-mobile-info
+{
+    
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.best-mobile-info p
+{
+    font-size: 20px;
+    font-family: Roboto,arial;
+    font-weight:500;
+    padding-left: 15px;
+    color:rgb(82, 82, 82);
+}
+
+.button-info
+{  
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-info button
+{
+    background-color: blue;
+    color: white;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+

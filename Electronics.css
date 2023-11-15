@@ -1,0 +1,80 @@
+.Electronics
+{
+    display: flex;
+    /* border-width: 2px;
+    border-color: black;
+    border-style:solid; */
+    height: 230px;
+    column-gap: 20px;
+    margin-bottom: 13px;
+    margin-left: 15px;
+}
+
+.Electronics-preview
+{
+    /* background-color: lightcoral; */
+    width: 190px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.Electronics-images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Electronics-images img
+{
+    padding-top: 38px;
+    width: 120px;
+    transition: width  0.30s ;
+}
+
+.Electronics-images:hover img
+{
+    width: 125px;
+    cursor: pointer;
+}
+
+.Electronics-info
+{
+    /* background-color: lightblue; */
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding-top: 5px;
+    
+}
+
+.Electronics-info p
+{
+    
+    font-size: 15px;
+    font-family: roboto,arial;
+    color: rgb(77, 77, 77);
+
+}
+
+.Electronics-data
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Electronics-data p
+{
+    
+    font-size: 14px;
+    font-family: Roboto,arial;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+/* 1 ends  */

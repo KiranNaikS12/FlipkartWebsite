@@ -1,0 +1,55 @@
+.ad-content
+{
+    display: flex;
+    flex-direction: row;
+    /* border-width: 8px; */
+    border-style: none;
+    border-color:rgb(237, 233, 233);
+    margin-top: 3px;
+    border-radius: 3px;
+    column-gap: 8px;
+   
+}
+
+.ad-1
+{
+    /* background-color: aqua; */
+    flex: 1;
+    height: 250px;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.ad-1 img
+{
+   width: 433px;
+}
+.ad-2
+{
+    /* background-color: lightcoral; */
+    flex: 1;
+    height: 250px;
+    display: flex;
+    justify-content:center;
+}
+
+.ad-2 img
+{
+   width: 433px;
+}
+
+
+.ad-3
+{
+    /* background-color: aqua; */
+    flex: 1;
+    height: 250px;
+    display: flex;
+    justify-content:center;
+}
+
+.ad-3 img
+{
+   width: 433px;
+}
